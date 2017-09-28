@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product-if-exists, frameworks/native/build/phone-hdpi-2048-dalvik-heap.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/lge/ph2n/ph2n-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/sf340n/sf340n-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -144,7 +144,7 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    fstab.ph2n \
+    fstab.sf340n \
     init.qcom.power.rc \
     init.class_main.sh \
     init.device.rc \
@@ -155,8 +155,8 @@ PRODUCT_PACKAGES += \
     init.lge.usb.default.sh \
     init.qcom.early_boot.sh \
     init.qcom.class_core.sh \
-    init.ph2n.rc \
-    init.ph2n_core.rc \
+    init.sf340n.rc \
+    init.sf340n_core.rc \
     init.qcom.rc \
     init.qcom.sh \
     init.qcom.sensors.sh \
@@ -165,7 +165,7 @@ PRODUCT_PACKAGES += \
     loggy.sh	   \
     init.target.rc \
     init.qcom.syspart_fixup.sh \
-    ueventd.ph2n.rc
+    ueventd.sf340n.rc
 
 # IPA Manager
 PRODUCT_PACKAGES += \

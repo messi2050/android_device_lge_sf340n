@@ -17,7 +17,7 @@
 
 set -e
 
-DEVICE=ph2n
+DEVICE=sf340n
 VENDOR=lge
 
 # Load extractutils and do some sanity checks

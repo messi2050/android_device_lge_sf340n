@@ -1,7 +1,7 @@
-Device Tree for Lg Stylo 2 Plus
+Device Tree for Lg Stylo 3 Plus
 ==============================================
 
-The Stylo 2 Plus (codenamed _"ph2n"_) is a mid-range smartphone from Lg Electronics.
+The Stylo 3 Plus (codenamed _"sf340n"_) is a mid-range smartphone from Lg Electronics.
 It was released on June, 2015.
 
 Basic   | Spec Sheet
