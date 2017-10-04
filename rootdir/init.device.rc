@@ -1,2 +1,2 @@
 on early-fs
-	mount_all fstab.ph2n
+	mount_all fstab.sf340

@@ -3,10 +3,10 @@ LOCAL_PATH := $(call my-dir)
 # Init scripts
 
 include $(CLEAR_VARS)
-LOCAL_MODULE       := fstab.ph2n
+LOCAL_MODULE       := fstab.sf340
 LOCAL_MODULE_TAGS  := optional eng
 LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES    := fstab.ph2n
+LOCAL_SRC_FILES    := fstab.sf340
 LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
 
@@ -59,18 +59,18 @@ LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE       := init.ph2n.rc
+LOCAL_MODULE       := init.sf340.rc
 LOCAL_MODULE_TAGS  := optional eng
 LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES    := init.ph2n.rc
+LOCAL_SRC_FILES    := init.sf340.rc
 LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE       := init.ph2n_core.rc
+LOCAL_MODULE       := init.sf340_core.rc
 LOCAL_MODULE_TAGS  := optional eng
 LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES    := init.ph2n_core.rc
+LOCAL_SRC_FILES    := init.sf340_core.rc
 LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
 
@@ -115,10 +115,10 @@ LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE       := ueventd.ph2n.rc
+LOCAL_MODULE       := ueventd.sf340.rc
 LOCAL_MODULE_TAGS  := optional eng
 LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES    := ueventd.ph2n.rc
+LOCAL_SRC_FILES    := ueventd.sf340.rc
 LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
 
