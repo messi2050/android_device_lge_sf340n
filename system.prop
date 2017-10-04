@@ -45,7 +45,7 @@ persist.data.mode=concurrent
 
 ro.vendor.extension_library=libqti-perfd-client.so
 
-ro.sf.lcd_density=320
+ro.sf.lcd_density=480
 
 # set dpm enable NSRM
 persist.dpm.feature=0
