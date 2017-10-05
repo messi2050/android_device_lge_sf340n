@@ -84,19 +84,6 @@ $(CSFIDO_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(CSFIDO_SYMLINKS)
 
-# csfp_app
-CSFP_IMAGES := \
-    csfp_app.b00 csfp_app.b01 csfp_app.b02 csfp_app.b03 csfp_app.b04 csfp_app.b05 csfp_app.b06 csfp_app.mdt
-
-CSFP_SYMLINKS := $(addprefix $(TARGET_OUT_ETC)/firmware/,$(notdir $(CSFP_IMAGES)))
-$(CSFP_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
-	@echo "CSFP firmware link: $@"
-	@mkdir -p $(dir $@)
-	@rm -rf $@
-	$(hide) ln -sf /firmware/image/$(notdir $@) $@
-
-ALL_DEFAULT_INSTALLED_MODULES += $(CSFP_SYMLINKS)
-
 # dhsecapp
 DHSECAPP_IMAGES := \
     dhsecapp.b00 dhsecapp.b01 dhsecapp.b02 dhsecapp.b03 dhsecapp.b04 dhsecapp.b05 dhsecapp.b06 dhsecapp.mdt
@@ -109,6 +96,20 @@ $(DHSECAPP_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 	$(hide) ln -sf /firmware/image/$(notdir $@) $@
 
 ALL_DEFAULT_INSTALLED_MODULES += $(DHSECAPP_SYMLINKS)
+
+# goodixfp
+GOODIXFP_IMAGES := \
+    goodixfp.b00 goodixfp.b01 goodixfp.b02 goodixfp.b03 goodixfp.b04 goodixfp.b05 \
+    goodixfp.b06 goodixfp.mdt
+
+GOODIXFP_SYMLINKS := $(addprefix $(TARGET_OUT_ETC)/firmware/,$(notdir $(GOODIXFP_IMAGES)))
+$(GOODIXFP_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
+	@echo "GOODIXFP firmware link: $@"
+	@mkdir -p $(dir $@)
+	@rm -rf $@
+	$(hide) ln -sf /firmware/image/$(notdir $@) $@
+
+ALL_DEFAULT_INSTALLED_MODULES += $(GOODIXFP_SYMLINKS)
 
 # gptest
 GPTEST_IMAGES := \
@@ -151,9 +152,9 @@ ALL_DEFAULT_INSTALLED_MODULES += $(MBA_SYMLINKS)
 
 # MODEM
 MODEM_IMAGES := \
-    modem.b00 modem.b01 modem.b03 modem.b05 modem.b06 modem.b07 modem.b08 \
-    modem.b09 modem.b10 modem.b11 modem.b12 modem.b13 modem.b14 modem.b15 \
-    modem.b19 modem.b20 modem.b21 modem.b22 modem.b23 modem.b24 modem.mdt modem_pr
+    modem.b00 modem.b01 modem.b02 modem.b04 modem.b05 modem.b06 modem.b07 \
+    modem.b08 modem.b9 modem.b10 modem.b11 modem.b12 modem.b13 modem.b16 \
+    modem.b17 modem.b18 modem.b19 modem.b20 modem.mdt modem_pr
 
 MODEM_SYMLINKS := $(addprefix $(TARGET_OUT_ETC)/firmware/,$(notdir $(MODEM_IMAGES)))
 $(MODEM_SYMLINKS): $(LOCAL_INSTALLED_MODULE)

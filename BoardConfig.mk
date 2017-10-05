@@ -47,7 +47,7 @@ TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_APPEND_DTB := true
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-eabi-
-TARGET_KERNEL_CONFIG := lineage_sf340n_mini_defconfig
+TARGET_KERNEL_CONFIG := lineageos_sf340n_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/msm8937
 
 # Audio
@@ -193,7 +193,7 @@ BOARD_USES_QCOM_HARDWARE := true
 BOARD_USES_QC_TIME_SERVICES := true
 
 # Recovery
-TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/fstab.sf340n
+TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/fstab.sf340
 
 # RIL
 TARGET_RIL_VARIANT := caf
