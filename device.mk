@@ -149,7 +149,7 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    fstab.sf340n \
+    fstab.sf340 \
     init.qcom.power.rc \
     init.class_main.sh \
     init.device.rc \
@@ -160,8 +160,8 @@ PRODUCT_PACKAGES += \
     init.lge.usb.default.sh \
     init.qcom.early_boot.sh \
     init.qcom.class_core.sh \
-    init.sf340n.rc \
-    init.sf340n_core.rc \
+    init.sf340.rc \
+    init.sf340_core.rc \
     init.qcom.rc \
     init.qcom.sh \
     init.qcom.sensors.sh \
@@ -172,7 +172,7 @@ PRODUCT_PACKAGES += \
     init.qcom.syspart_fixup.sh \
     init.lge.fm.rc \
     init.qcom.fm.sh \
-    ueventd.sf340n.rc
+    ueventd.sf340.rc
 
 # IPA Manager
 PRODUCT_PACKAGES += \
