@@ -28,7 +28,7 @@ BOARD_VENDOR := lge
 PRODUCT_DEVICE := sf340n
 PRODUCT_NAME := lineage_sf340n
 PRODUCT_BRAND := lge
-PRODUCT_MODEL := Lg Stylo 3 Plus
+PRODUCT_MODEL := LG Stylo 3 Plus
 PRODUCT_MANUFACTURER := lge
 
 # Overlays (inherit after vendor/cm to ensure we override it)
