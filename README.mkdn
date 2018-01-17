@@ -17,6 +17,6 @@ Battery | Removable Li-Ion 3000mAh battery
 Display | 1080 x 1920 pixels, 5.7 inches (~294 ppi pixel density)
 Camera  | 13 MP, autofocus, flash LED
 
-Copyright 2017/2018 - The Lineage Android Operating System.
+Copyright 2017-2018 - The Lineage Android Operating System.
 
 ![Lg Stylo 3 Plus](https://belacha.com/media/items/original/1506215796_6236.jpg "Lg Stylo 3 Plus")
