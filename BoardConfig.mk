@@ -19,6 +19,9 @@ include device/lge/msm8937-common/BoardConfigCommon.mk
 
 LOCAL_PATH := device/lge/sf340n
 
+# kernel
+TARGET_KERNEL_CONFIG := lineage_sf340n_defconfig
+
 # Filesystem
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432
