@@ -46,6 +46,10 @@ PRODUCT_PACKAGES += \
     FMRadio \
     libfmjni
 
+# Gesture handler
+PRODUCT_PACKAGES += \
+    GestureHandler
+
 # NFC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
